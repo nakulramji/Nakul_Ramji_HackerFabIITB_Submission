@@ -67,4 +67,4 @@ figures/                  plots used in this README
 Figures: `figures/fig1_uniformity_map_400C.png`, `fig2_span_vs_setpoint.png`, `fig3_cross_section_400C.png`, `fig4_control_runs.png`.
 
 ## 8. Use of AI tools
-**[Edit this section so that it is true for you.]** I used Claude (an AI assistant) to help write the simulation code, drawings, firmware draft and documentation. The task statement says the README must be written by me, so I [read, checked and edited] it and I can explain every number in it. The firmware has **not** been run on hardware.
+I used Claude (an AI assistant) to help write the simulation code, drawings, firmware draft and documentation. The task statement says the README must be written by me, so I [read, checked and edited] it and I can explain every number in it. The firmware has **not** been run on hardware.
