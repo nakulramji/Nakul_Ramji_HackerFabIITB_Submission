@@ -1,0 +1,5 @@
+item,description,purpose,qty,est_unit_INR,est_total_INR
+V1,"K-type thermocouple Ø0.25 mm, 9 pcs, same spool",Uniformity mapping,9,500,4500
+V2,Multi-channel thermocouple logger (e.g. MAX31856 x 9 or commercial),,1,6000,6000
+V3,Reference thermometer / calibrated PT100 (borrow from lab if possible),,1,5000,5000
+V4,"Test silicon wafers 4 inch, 5 pcs",,5,300,1500

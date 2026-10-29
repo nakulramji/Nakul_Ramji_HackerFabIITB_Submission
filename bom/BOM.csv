@@ -1,0 +1,23 @@
+item,description,purpose,qty,est_unit_INR,est_total_INR,notes
+1,"Aluminium 6061-T651 round bar/plate, raw Ø165 x 35 mm (1 pc)",Plate blank; machined to Ø160 x 30,1,4000,4000,Local metal supplier; ask for mill certificate
+2,"Machine-shop job work: turn, bore 3 x Ø10 H7, 2 x Ø3.2 sensor bores, M5 holes, SURFACE-GRIND top to ±10 µm (aim ±5)",Needs a shop with a surface grinder; ask for a flatness report,1,15000,15000,Pre-age plate 3 cycles to 420 °C BEFORE final grind
+3,"Cartridge heater Ø10 mm, 230 V, 150 W, SS304/Incoloy sheath; heated length 100 mm x2 (127 mm overall) and 120 mm x1 (145 mm overall), cold lead end 20-25 mm",Zone A heaters,3,900,2700,Custom length; low watt density (≈5 W/cm²)
+4,"Mica band heater ID 160 mm x 15 mm wide, 230 V, 350 W, sheath rating ≥ 500 °C, with spring tensioner",Zone B rim heater,1,2500,2500,Custom order; leave 3 mm tab for leads away from bore entries
+5,"PT100 thin-film RTD, ceramic body, 3-wire, rated ≥ 500 °C, Class A (1/3 DIN if available)","S1, S2 control sensors + S3 spare",3,1500,4500,Cement into bores with high-temp ceramic adhesive
+6,"MAX31865 RTD-to-digital breakout (PT100, 430 ohm Rref)",Sensor interface,2,1800,3600,Close the 3-wire solder jumpers per datasheet
+7,Arduino Nano or Uno,Controller,1,1000,1000,
+8,"Solid-state relay 25 A, 230 V AC, zero-cross, DC control",SSR-A and SSR-B,2,800,1600,Mount on heat sink
+9,Heat sink + thermal pad for SSR,,2,300,600,
+10,Contactor 2-pole 16 A with 230 V AC coil,Safety chain power switching,1,1500,1500,
+11,"Manual-reset thermal cutout, trip ≈ 430 °C (capillary or bimetal rated for 450 °C)",Hardware over-temperature protection in the contactor coil path,1,2500,2500,Mount on plate side near the heater bores; verify trip with a separate thermometer
+12,MCB 6 A (C curve) + RCD 30 mA,Mains protection,1,1800,1800,
+13,"Emergency stop button, NC, latching",In series with contactor coil,1,600,600,
+14,"Stainless steel 304 shell, 1.5 mm, fabricated tray + lid (sealed), 4 feet",Contains insulation (no fibre shedding in cleanroom),1,6000,6000,Sheet-metal job work
+15,"Insulation: calcium silicate board 25 mm + wrap, low-biopersistence (not RCF) wool 25 mm",Bottom/side insulation,1,2500,2500,Wear gloves/mask when cutting
+16,Alumina standoff Ø8 x 6 mm,Plate-to-tray low-contact support,3,400,1200,Ceramic supplier
+17,Stainless steel dowel pins Ø3 x 4 (press fit),"Wafer locating pins, 1.2 mm proud",3,70,210,Ground flush height check
+18,"Metal electrical enclosure ≈ 250 x 200 x 120 mm, earthed",Controller box,1,1500,1500,
+19,"Cables: high-temp fibreglass/PTFE leads, SS cable glands, ferrules, terminal blocks, earth wire",Wiring,1,2500,2500,Heater leads must be rated ≥ 250 °C
+20,5 V 2 A power supply module,Logic power,1,500,500,
+21,"Fasteners, thermal paste (≥ 600 °C), ceramic adhesive, labels",Misc,1,1000,1000,
+,"TOTAL (core build, estimate)",,,,57310,"Prices are my rough estimates, NOT vendor quotes; verify with suppliers"
