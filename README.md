@@ -1,7 +1,7 @@
 # Semiconductor-grade hot plate (Option B): HackerFab IITB submission
 
 **Nakul Ramji** | IIT Bombay, B.Tech Metallurgical Engineering and Materials Science
-Video walkthrough: **[PASTE YOUR YOUTUBE / LOOM LINK HERE]**
+Video walkthrough: **(https://youtu.be/2CIGI8Oh1XU)**
 Part 1: [`Motivation.pdf`](Motivation.pdf)
 
 > **Status: this is a design, not a built unit.** Everything below is from calculation and simulation. I list what is predicted, what is not modelled, and how I would test each spec (`docs/test_plan.md`).
